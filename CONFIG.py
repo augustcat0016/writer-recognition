@@ -1,5 +1,9 @@
 DATA_PATH = './dataset'
-CACHE_DIR = './bert-base-chinese-model'
+
+CHINESE_WWM_EXT_MODEL_DIR = './bert-base-chinese-wwm-ext-model'
+CHINESE_BASE_MODEL_DIR = './bert-base-chinese-model'
+CACHE_DIR = CHINESE_WWM_EXT_MODEL_DIR
+
 FILENAME_CONFIG = 'config.json'
 FILENAME_VOCAB = 'vocab.txt'
 FILENAME_MODEL = 'pytorch_model.bin'
